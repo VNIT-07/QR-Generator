@@ -9,7 +9,8 @@ st.set_page_config(page_title="QR Code Generator", layout="centered")
 
 st.title("QR Code Generator")
 
-url = st.text_input("Enter URL", value="https://www.youtube.com/watch?v=pJdTyvufOdg").strip()
+# ENTER URL
+url = st.text_input("Enter URL", value="ENTER YOUR URL").strip()
 if not url:
     st.info("Type a URL above.")
 else:
